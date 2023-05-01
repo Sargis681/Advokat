@@ -1,0 +1,87 @@
+
+.toolBar .container{
+    max-width: 1140px;
+    margin:  0 auto;
+
+}
+.toolBar{
+    background-image: url("https://rstheme.com/products/html/advokat/images/slider/h1-sl1.jpg");
+    background-size: cover;
+    background-position: top;
+    /* height: 50px; */
+    /* height: 400px; */
+}
+.toolBarBackground{
+    /* width: 100%; */
+    background-color: rgba(20, 20, 20, 0.288);
+    padding: 5px;
+}
+.toolBarStart{
+    background-color: rgba(20, 33, 62, 0.396);
+    padding: 5px;
+
+    /* height: 50px; */
+    /* max-width: 1140px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.toolBarStartSpan{
+    /* max-width: 1140px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    gap: 10px;
+}
+.toolBarStartSpan span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iconS{
+    color: #b69d74;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.iconS:hover{
+    color: #b69d747c;
+    transition: all 0.2s;
+
+}
+.leftIcons{
+    color: #b69d74;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s;
+}
+.leftIcons:hover{
+    cursor: pointer;
+    color: #b69d7498;
+
+
+}
+
+.leftIcons button{
+    font-size: 14px;
+    /* width: 110px; */
+    padding: 15px 15px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    background: #b69d74;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+.leftIcons button:hover{
+    background-color: #b69d74a2;
+    cursor: pointer;
+}

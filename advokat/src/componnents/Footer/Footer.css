@@ -1,0 +1,54 @@
+.footer{
+    background-color: rgb(38,48,67);
+}
+.footer .container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footTop{
+    display: flex;
+    width: 100%;
+    /* padding: 10px; */
+    justify-content:space-between;
+}
+.footTop img{
+    width: 14%;
+    cursor: pointer;
+    padding: 10px;
+}
+.footTop img:hover{
+    color: wheat;
+    background-color: rgba(29, 30, 30, 0.151);
+}
+.footBot{
+    background-color: rgb(31,40,57);
+    padding: 30px;
+}
+.footBot .container{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.footBot3 img{
+    width: 100px;
+
+}
+.fim{
+    width: 200px;
+}
+.footBot .container div{
+    color: wheat;
+    width: 22%;
+}
+@media screen and (max-width: 600px) {
+    .footBot .container div {
+        font-size: 10px;
+
+    }
+    .footBot1>img{
+        width: 80px;
+        
+    }
+  }

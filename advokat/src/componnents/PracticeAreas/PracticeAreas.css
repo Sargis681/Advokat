@@ -1,0 +1,93 @@
+
+.practiceAreas{
+    background-color: rgb(31,40,57);
+    /* padding: 80px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 30px; */
+}
+.practiceAreas .container{
+    max-width: 1140px;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.practiceAreas .container button{
+    background: #b69d74;
+    justify-content: center;
+    line-height: normal;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    font-weight: 400;
+    padding-right: 50px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    transition: all 2s;
+    margin-top: 20px;
+
+}
+.practiceAreas .container button:hover{
+    gap: 4px;
+    cursor: pointer;
+}
+.practiceAreas .container p{
+    color: rgb(182,157,117);
+    font-family: sans-serif;
+}
+.practiceAreas .container h1{
+  color: white;
+  font-family: sans-serif;
+}
+.boxBox{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center ;
+    gap: 20px;
+}
+.practiceAreas .container .Box{
+    color: white;
+    display: flex;
+    gap: 5px;
+    padding: 40px;
+    width: 25%;
+    background-color: rgb(38,48,67);
+}
+.practiceAreas .container .Box h4:hover{
+    color:rgb(182,157,117) ;
+    cursor: pointer;
+}
+.practiceAreas .container .Box img{
+    width: 40px;
+    height: 40px;
+}
+@media screen and (max-width: 600px) {
+    .boxBox {
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+    .practiceAreas .container .Box{
+        width: 50%;
+
+    }
+
+}
+@media screen and (min-width: 800px) {
+    .practiceAreas .container .Box{
+        width: 20%;
+
+    }
+
+}

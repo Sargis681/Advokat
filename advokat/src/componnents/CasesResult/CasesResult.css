@@ -1,0 +1,40 @@
+.casesResult .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 5px;
+}
+.casesResult .container p{
+    color: rgb(182,157,117);
+    font-weight: bolder;
+}
+.divImages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.divImages img{
+    /* height: 450px; */
+    width: 30%;
+    transition: all 1s;
+}
+.divImages img:hover{
+filter: blur(2px);
+  filter: blur(4px);
+  cursor: crosshair;
+}
+@media screen and (max-width: 900px) {
+ 
+    .divImages{
+        flex-direction: column;
+        gap: 8px;
+
+    }
+    .divImages img{
+        width: 100%;
+    }
+}

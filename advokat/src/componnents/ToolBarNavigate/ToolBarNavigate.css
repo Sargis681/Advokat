@@ -1,0 +1,61 @@
+.toolBarNavigate{
+    background-image: url("https://rstheme.com/products/html/advokat/images/slider/h1-sl1.jpg");
+    padding: 10px;
+}
+.toolBarNavigate .container{
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    /* padding: 15px; */
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    /* justify-content: space-evenly; */
+    /* width: 40%; */
+    color: white;
+    cursor: pointer;
+}
+.navigation a{
+    text-decoration: none;
+    font-weight: bolder;
+    /* color: rgb(238, 216, 216); */
+    /* color: aliceblue; */
+    /* border: none; */
+}
+a{
+    color: rgb(237, 244, 244);
+}
+.active{
+    color: rgb(182,157,116);
+    cursor: pointer;
+}
+.av{
+    color: rgb(15, 9, 1);
+}
+.navigation span:hover{
+    color: antiquewhite;
+}
+@media screen and (max-width: 600px) {
+   
+    .toolBarStart{
+        font-size: 5px;
+    }
+    .toolBarStartSpan{
+        font-size: 8px;
+    }
+    .leftIcons button{
+        padding: 3px;
+        font-size: 12px;
+    }
+    .navigation{
+        font-size: 10px;
+    }
+   
+  }

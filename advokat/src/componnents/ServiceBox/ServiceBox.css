@@ -1,0 +1,87 @@
+.serviceBox .container {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+}
+
+.serviceBox .container div img {
+    width: 50px;
+    height: 50px;
+}
+
+.box1 {
+    display: flex;
+    margin-top: -120px;
+    color: white;
+    padding: 20px;
+    gap: 3px;
+    width: 25%;
+    background-color: rgb(31, 40, 57);
+
+}
+.box1:hover h4{
+    color: rgb(182,157,116);
+    cursor: pointer;
+}
+
+.Box2 {
+    display: flex;
+    color: white;
+    margin-top: -120px;
+    gap: 3px;
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(38, 48, 67);
+}
+.Box2:hover h4{
+    color: rgb(182,157,116);
+    cursor: pointer;
+}
+
+.Box3 {
+    color: white;
+    display: flex;
+    margin-top: -120px;
+    gap: 3px;
+    padding: 20px;
+    width: 25%;
+    background-color: rgb(31, 40, 57);
+}
+.Box3:hover h4{
+    color: rgb(182,157,116);
+    cursor: pointer;
+}
+
+.box1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Box2 div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Box3 div {
+    display: flex;
+    flex-direction: column;
+
+}
+@media screen and (max-width: 600px) {
+    .serviceBox .container {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .box1 {
+        margin-top: 0;
+        width: 92%;
+    }
+    .Box2 {
+        margin-top: 0;
+    }
+    .Box3 {
+        margin-top: 0;
+    }
+}
